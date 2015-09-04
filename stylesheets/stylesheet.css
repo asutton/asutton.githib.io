@@ -256,6 +256,22 @@ form {
   padding: 20px;
 }
 
+nav {
+  position: relative;
+  max-width: 640px;
+  margin: auto;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -270,6 +286,7 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
+
 
 #forkme_banner {
   display: block;
@@ -421,10 +438,4 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
-  nav ul li {
-    display: inline-block;
-    list-style-type: none;
-  }
-
 }
