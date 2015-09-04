@@ -422,4 +422,9 @@ Small Device Styles
     font-size: 11px;
   }
 
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+
 }
